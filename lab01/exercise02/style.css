@@ -6,19 +6,52 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
-*/
+section {
+    border: solid 1px;
+    float: left; 
+    height: 50%;
+    width: 22%;
+    margin: 10px; 
+}
 
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px; 
+}
+
+section img {
+    object-fit: contain; 
+    height: 100%;
+    width: 100%;
+}
+
+section p {
+    margin-left: 10px;
+}
+
+section button {
+    margin-left: 10px; 
+    margin-bottom: 10px;  
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    section {
+        border: solid 1px;
+        float: left; 
+        height: 50%;
+        width: 47%;
+        margin: 10px; 
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
-    
+    section {
+        border: solid 1px;
+        float: left; 
+        height: 50%;
+        width: 100%;
+        margin: 10px; 
+    }
 }
